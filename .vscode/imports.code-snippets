@@ -1,0 +1,93 @@
+{
+  "app": {
+    "scope": "dart",
+    "prefix": "app",
+    "body": ["import 'package:edu_timetable_client/app/app.dart';"]
+  },
+
+  "core-domain": {
+    "scope": "dart",
+    "prefix": "core-domain",
+    "body": ["import 'package:edu_timetable_client/core/domain/domain.dart';"]
+  },
+  "core-infrastructure": {
+    "scope": "dart",
+    "prefix": "core-infrastructure",
+    "body": [
+      "import 'package:edu_timetable_client/core/infrastructure/infrastructure.dart';"
+    ]
+  },
+  "core-presentation": {
+    "scope": "dart",
+    "prefix": "core-presentation",
+    "body": [
+      "import 'package:edu_timetable_client/core/presentation/presentation.dart';"
+    ]
+  },
+
+  "settings-domain": {
+    "scope": "dart",
+    "prefix": "settings-domain",
+    "body": [
+      "import 'package:edu_timetable_client/modules/settings/domain/domain.dart';"
+    ]
+  },
+  "settings-infrastructure": {
+    "scope": "dart",
+    "prefix": "settings-infrastructure",
+    "body": [
+      "import 'package:edu_timetable_client/modules/settings/infrastructure/infrastructure.dart';"
+    ]
+  },
+  "settings-presentation": {
+    "scope": "dart",
+    "prefix": "settings-presentation",
+    "body": [
+      "import 'package:edu_timetable_client/modules/settings/presentation/presentation.dart';"
+    ]
+  },
+
+  "specialties-domain": {
+    "scope": "dart",
+    "prefix": "specialties-domain",
+    "body": [
+      "import 'package:edu_timetable_client/modules/specialties/domain/domain.dart';"
+    ]
+  },
+  "specialties-infrastructure": {
+    "scope": "dart",
+    "prefix": "specialties-infrastructure",
+    "body": [
+      "import 'package:edu_timetable_client/modules/specialties/infrastructure/infrastructure.dart';"
+    ]
+  },
+  "specialties-presentation": {
+    "scope": "dart",
+    "prefix": "specialties-presentation",
+    "body": [
+      "import 'package:edu_timetable_client/modules/specialties/presentation/presentation.dart';"
+    ]
+  },
+
+  "timetable-domain": {
+    "scope": "dart",
+    "prefix": "timetable-domain",
+    "body": [
+      "import 'package:edu_timetable_client/modules/timetable/domain/domain.dart';"
+    ]
+  },
+  "timetable-infrastructure": {
+    "scope": "dart",
+    "prefix": "timetable-infrastructure",
+    "body": [
+      "import 'package:edu_timetable_client/modules/timetable/infrastructure/infrastructure.dart';"
+    ]
+  },
+  "timetable-presentation": {
+    "scope": "dart",
+    "prefix": "timetable-presentation",
+    "body": [
+      "import 'package:edu_timetable_client/modules/timetable/presentation/presentation.dart';"
+    ]
+  }
+}
